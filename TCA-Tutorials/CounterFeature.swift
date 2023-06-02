@@ -9,7 +9,7 @@ import ComposableArchitecture
 
 struct CounterFeature: ReducerProtocol {
     
-    struct State {
+    struct State: Equatable {
         var count = 0
     }
     

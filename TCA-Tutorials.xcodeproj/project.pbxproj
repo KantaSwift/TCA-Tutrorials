@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		B28EC78D2A29FB1900ED32D2 /* TCA_TutorialsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28EC78C2A29FB1900ED32D2 /* TCA_TutorialsApp.swift */; };
-		B28EC78F2A29FB1900ED32D2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28EC78E2A29FB1900ED32D2 /* ContentView.swift */; };
 		B28EC7912A29FB1A00ED32D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B28EC7902A29FB1A00ED32D2 /* Assets.xcassets */; };
 		B28EC7942A29FB1A00ED32D2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B28EC7932A29FB1A00ED32D2 /* Preview Assets.xcassets */; };
 		B28EC79E2A29FB1A00ED32D2 /* TCA_TutorialsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28EC79D2A29FB1A00ED32D2 /* TCA_TutorialsTests.swift */; };
@@ -16,6 +15,7 @@
 		B28EC7AA2A29FB1A00ED32D2 /* TCA_TutorialsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28EC7A92A29FB1A00ED32D2 /* TCA_TutorialsUITestsLaunchTests.swift */; };
 		B28EC7B82A29FD6E00ED32D2 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = B28EC7B72A29FD6E00ED32D2 /* ComposableArchitecture */; };
 		B28EC7BA2A29FE3300ED32D2 /* CounterFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28EC7B92A29FE3300ED32D2 /* CounterFeature.swift */; };
+		B28EC7BC2A2A000400ED32D2 /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28EC7BB2A2A000400ED32D2 /* CounterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +38,6 @@
 /* Begin PBXFileReference section */
 		B28EC7892A29FB1900ED32D2 /* TCA-Tutorials.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TCA-Tutorials.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B28EC78C2A29FB1900ED32D2 /* TCA_TutorialsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCA_TutorialsApp.swift; sourceTree = "<group>"; };
-		B28EC78E2A29FB1900ED32D2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B28EC7902A29FB1A00ED32D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B28EC7932A29FB1A00ED32D2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B28EC7992A29FB1A00ED32D2 /* TCA-TutorialsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TCA-TutorialsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +46,7 @@
 		B28EC7A72A29FB1A00ED32D2 /* TCA_TutorialsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCA_TutorialsUITests.swift; sourceTree = "<group>"; };
 		B28EC7A92A29FB1A00ED32D2 /* TCA_TutorialsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCA_TutorialsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		B28EC7B92A29FE3300ED32D2 /* CounterFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterFeature.swift; sourceTree = "<group>"; };
+		B28EC7BB2A2A000400ED32D2 /* CounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +99,8 @@
 			isa = PBXGroup;
 			children = (
 				B28EC78C2A29FB1900ED32D2 /* TCA_TutorialsApp.swift */,
-				B28EC78E2A29FB1900ED32D2 /* ContentView.swift */,
 				B28EC7B92A29FE3300ED32D2 /* CounterFeature.swift */,
+				B28EC7BB2A2A000400ED32D2 /* CounterView.swift */,
 				B28EC7902A29FB1A00ED32D2 /* Assets.xcassets */,
 				B28EC7922A29FB1A00ED32D2 /* Preview Content */,
 			);
@@ -269,8 +269,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B28EC7BA2A29FE3300ED32D2 /* CounterFeature.swift in Sources */,
-				B28EC78F2A29FB1900ED32D2 /* ContentView.swift in Sources */,
 				B28EC78D2A29FB1900ED32D2 /* TCA_TutorialsApp.swift in Sources */,
+				B28EC7BC2A2A000400ED32D2 /* CounterView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
